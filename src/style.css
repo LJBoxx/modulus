@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: darkgray;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background: white;
+    color: black;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background: white;
+    color: black;
+    width: 100%;
+}
