@@ -1,6 +1,7 @@
 body {
-    background-color: black;
+    background-color: green;
     color: darkgray;
+    font-family: "Courier New", Courier, monospace;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -9,20 +10,32 @@ body {
 }
 
 .header {
-    background: white;
-    color: black;
+    background: transparent;
     z-index: 5;
     top: 0;
     width: 100%;
     position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
 }
 
 .main {
-    background: white;
+    background: darkgreen;
+    background-image: radial-gradient(#e5e5e5 1px, transparent 1px);
+    background-size: 20px 20px;
     color: black;
-    width: 100%;
+    width: 90%;          
+    max-width: 800px;
+    min-height: 100vh;   
+    padding: 100px 40px; 
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+#hackclub-logo {
+    width: 15rem;
 }
